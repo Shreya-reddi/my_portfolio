@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+    <div class="left">
+      <h1>Shreya's Portfolio</h1>
+      </div>
+      <div class="right">
+        <ul>
+            <li><a href="portfolio.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+        
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="first">
+     
+     <div class="left1">
+        Hello! I am Shreya.<br>
+        Welcome...
+        <span id="element"></span>
+        <div class="buttons">
+            <button class="btn" onclick="viewResume()">Resume</button>
+            <button class="btn" onclick="viewLinkedin()">Visit Linkedin</button>
+        </div>
+     </div>
+     <div class="right1">
+        <img src="dev.png" alt="pic of web dev">
+            </div>
+  </section>
+  <br><br><br><br>
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p>Hello! I'm Kohir Shreya Reddy, a passionate developer.<br>
+        I enjoy creating innovative solutions and working on challenging projects.</p>
+  
+      <div class="grid-container">
+        <div class="card responsibilities-card">
+          <h3>Positions of Responsibility</h3>
+          <div class="card-content">
+            <h4>Documentation Head - GDSC (Google Developer Student Club) 2023</h4>
+            <p>Previously worked as the Documentation Head of the GDSC club. Managed the club’s documentation repository, ensuring proper organization, maintenance, and accessibility of documentation assets.</p>
+          </div>
+          <div class="card-content">
+            <h4>Aptus Gana 2022</h4>
+            <p>Orchestrated successful treasure hunt events that integrated mathematical concepts, fostering a fun and educational environment for participants. Demonstrated adaptability and problem-solving abilities in handling the events.</p>
+          </div>
+        </div>
+  
+        <div class="card achievements-card">
+          <h3>Extra-Curricular Achievements/Activities</h3>
+          <div class="card-content">
+            <h4>NASA Space App Challenge Hackathon</h4>
+            <p>Participated in the hackathon and gained insights on game development using C# and Unity.</p>
+          </div>
+          <div class="card-content">
+            <h4>Cybersecurity Workshop & Hackathon</h4>
+            <p>Completed a 3-day workshop followed by a 12-hour hackathon in cybersecurity by Supraja Technologies and ranked 13th.</p>
+          </div>
+          <div class="card-content">
+            <h4>Financial Literacy Week</h4>
+            <p>Actively participated in the Financial Literacy Week organized by the Reserve Bank of India (RBI) at the Institute for Development and Research in Banking Technology (IDRBT).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  </section>
+  
+  
+
+  <section id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Farmera Mobile App for FarmerWorker Connectivity (2023)</h3>
+          <p>Facilitates communication between farmers and workers. Farmers can post job openings, and workers can browse and apply for available positions, enhancing accessibility and efficiency in labour allocation. Implemented real-time updates using Firebase Firestore. Added a feature to the app by integrating geolocation services.</p>
+          <p><strong>Technologies used:</strong> Flutter, Dart, Firebase (Authentication, Firestore, Cloud Functions)</p>
+        </div>
+        <div class="project">
+          <h3>Food Calorie Prediction and Estimation (2024)</h3>
+          <p>Designed and implemented a CNN model in Python to predict calorie content in food items. Integrated the model with a front-end interface using Flask framework, enabling seamless user interaction. Achieved 89% accuracy through rigorous data preprocessing, feature extraction, and model tuning.</p>
+          <p><strong>Technologies used:</strong> Python, TensorFlow, Flask</p>
+        </div>
+        <div class="project">
+          <h3>Medical Inventory Management System (2024)</h3>
+          <p>Developed a web-based application for managing medical inventory in healthcare facilities. Implemented user authentication, maintenance of medicine categories, detailed search and display options based on ID, category, expiry date, and stock level, proactive alerts for expiring medicines and critical stock levels. Addition and updating of medicine details, including price and quantity.</p>
+          <p><strong>Technologies used:</strong> Front-end: Angular; Back-end: SQL, ASP.NET; Tools: Visual Studio</p>
+        </div>
+      </div>
+  </section>
+<section>
+    <br><br><br>
+</section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Shreya Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+<script>
+function viewResume() {
+    window.open('Kohir_Shrey_Reddy_Resume.pdf', '_blank');
+  }
+  function viewLinkedin() {
+    window.open('https://www.linkedin.com/in/shreya-reddy-kohir-328306233', '_blank');
+  }
+</script>
+</html>
